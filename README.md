@@ -10,10 +10,10 @@ R3: The parking lot should have multiple entrance and exit points.
 
 R4: Four types of vehicles should be allowed to park in the parking lot, which are as follows:
 
-Car
-Truck
-Van
-Motorcycle
+* Car
+* Truck
+* Van
+* Motorcycle
 
 R5: The parking lot should have a display board that shows free parking spots for each parking spot type.
 
