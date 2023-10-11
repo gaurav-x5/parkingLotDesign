@@ -16,10 +16,12 @@ public class FixedRate implements PaymentStrategy{
         Instant end = Instant.now();
 
         double amount = ((end.toEpochMilli() - start.toEpochMilli()) / 1000.0) * rate;
+        System.out.println("Total amount to be paid " + amount);
         parkingTicket.setAmount(amount);
 
 //        assuming payment is done
         parkingTicket.setPaymentStatus(PaymentStatusEnum.PAID);
+        System.out.println("Payment Success");
         return parkingTicket;
     }
 

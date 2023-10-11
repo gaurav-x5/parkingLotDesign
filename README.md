@@ -28,3 +28,13 @@ R9: The customer can pay for the ticket either with an automated exit panel or p
 R10: The payment should be calculated at an hourly rate.
 
 R11: Payment can be made using either a credit/debit card or cash.
+
+
+## Design Pattern's Used
+* SingleTon Design Pattern
+* Factory Design Pattern
+* Strategy Design Pattern
+
+
+## Output
+![](/Users/gauravkumar/Desktop/Screenshot 2023-10-11 at 10.46.08 AM.png)
